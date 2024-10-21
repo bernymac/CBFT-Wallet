@@ -29,7 +29,7 @@ Inside the `/scripts` folder, use the `run.sh` to run the project as follows:
 
 Specifically, to test our project, you can use the `Client` class or the `ThroughputLatencyEvaluation` class, which was used to perform the experimental evaluation presented in the [/docs](./docs). We have developed a ClientAPI, which can be used via CLI through the following commands:
 ```text
-wallet.client.ClientKt                   	keyGen           <client id> <index key id> <schnorr | bls | symmetric>
+wallet.client.ClientKt                   keyGen           <client id> <index key id> <schnorr | bls | symmetric>
                                             sign             <client id> <index key id> <schnorr | bls> <data>
                                             enc              <client id> <index key id> <data>
                                             dec              <client id> <index key id> <ciphertext>
