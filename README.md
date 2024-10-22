@@ -22,7 +22,7 @@ Now, everything is installed and ready to be tested!
 ## ⇁ Running the Project
 To demonstrate how to run the project, we will use the setting of 4 servers, with 1 possible fault.
 
-Inside the `/scripts` folder, use the `run.sh` to run the project as follows:
+Inside the `/build/local` folder, use the `run.sh` to run the project as follows:
 * `./run.sh wallet.server.ServerKt <server_id (0-3)>`
 * `./run.sh wallet.client.ClientKt <operation> <client_id> ...`
 * `./run.sh wallet.client.ThroughputLatencyEvaluationKt <operation> <client_id>`
