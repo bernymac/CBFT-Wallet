@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU Lesser General Public or the
  * Apache License along with RELIC. If not, see <https://www.gnu.org/licenses/>
  * or <https://www.apache.org/licenses/>.
- */wallet
+ */
 
 package wallet.client
 
